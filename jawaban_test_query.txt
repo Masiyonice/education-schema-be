@@ -1,0 +1,4 @@
+1. select * from kawahedukasi where max(gaji)
+2. select * from kawahedukasi where max(nilai) and max(gaji)
+3. select count(kelas) from kawahedukasi where kelas='FRONTEND'
+4. select * from kawahedukasi where max(jumlah_kehadiran) and max(nilai_kehadiran) and kelas='FRONTEND'
